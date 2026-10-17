@@ -13,6 +13,10 @@ An AI-assisted intake system for **3509 Innovations**: Microsoft Forms, SharePoi
 
 📄 **Full case study with screenshots:** [iamnicolecoleman.com/portfolio/ai-lead-qualification-routing](https://iamnicolecoleman.com/portfolio/ai-lead-qualification-routing/)
 
+<p align="center">
+  <img src="https://iamnicolecoleman.com/wp-content/uploads/2026/09/ai-lead-automation-cover.png" width="70%" alt="AI-Assisted Lead Qualification & Routing System"/>
+</p>
+
 ---
 
 ## The problem
@@ -43,6 +47,31 @@ flowchart LR
 | 5. Notify | Teams Adaptive Cards | Card 1: a lead arrived. Card 2: the enriched assessment |
 | 6. Decide | Me | I review and reach out. The AI never contacts or rejects a lead |
 
+## Screenshots
+
+All screenshots show a test lead with contact details blurred.
+
+<table>
+  <tr>
+    <td width="30%" valign="top"><img src="https://iamnicolecoleman.com/wp-content/uploads/2026/09/lead-enrichment-power-automate-flow.png" alt="Power Automate enrichment flow"/></td>
+    <td valign="top">
+      <b>The enrichment flow.</b> Trigger, clean the input, call the Claude API, parse the result, update the record, post the Teams card.
+    </td>
+  </tr>
+</table>
+
+**Card 1: a new lead arrives.** Who it is, their tools, budget, and the bottleneck in their own words.
+
+<img src="https://iamnicolecoleman.com/wp-content/uploads/2026/09/lead-enrichment-new-lead-card.png" width="80%" alt="New Lead Submitted Teams Adaptive Card"/>
+
+**Card 2: the AI assessment.** Fit score, recommended offer, next step, and follow-up date.
+
+<img src="https://iamnicolecoleman.com/wp-content/uploads/2026/09/lead-enrichment-enriched-card.png" width="80%" alt="Lead Enriched Teams Adaptive Card"/>
+
+**The system of record.** The SharePoint list with the AI-written fields filled in.
+
+<img src="https://iamnicolecoleman.com/wp-content/uploads/2026/09/lead-enrichment-sharepoint-row-scaled.png" width="100%" alt="SharePoint lead record with AI fields"/>
+
 ## Design choices that mattered
 
 - **SharePoint as the system of record.** Contact preference, budget, source, and every AI output live in one row I can sort, filter, and report on.
@@ -61,4 +90,4 @@ Designed and built end to end: intake form, SharePoint list design, Power Automa
 
 ---
 
-<sub>This repository documents the system design. Screenshots (test lead, contact details blurred) are in the case study linked above.</sub>
+<sub>Built in my own 3509 Innovations Microsoft 365 environment. Screenshots are from the live system with a test lead.</sub>
