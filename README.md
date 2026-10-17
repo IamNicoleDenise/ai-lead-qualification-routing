@@ -51,6 +51,10 @@ flowchart LR
 
 All screenshots show a test lead with contact details blurred.
 
+**It starts here: the intake form.** A short Microsoft Form that asks about the team, current tools, budget, timeline, and the bottleneck they want fixed, with a privacy note up front.
+
+<img src="./docs/intake-form.png" width="70%" alt="Start Your Operations Audit intake form in Microsoft Forms"/>
+
 <table>
   <tr>
     <td width="30%" valign="top"><img src="https://iamnicolecoleman.com/wp-content/uploads/2026/09/lead-enrichment-power-automate-flow.png" alt="Power Automate enrichment flow"/></td>
