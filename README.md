@@ -14,7 +14,7 @@ An AI-assisted intake system for **3509 Innovations**: Microsoft Forms, SharePoi
 📄 **Full case study with screenshots:** [iamnicolecoleman.com/portfolio/ai-lead-qualification-routing](https://iamnicolecoleman.com/portfolio/ai-lead-qualification-routing/)
 
 <p align="center">
-  <img src="https://iamnicolecoleman.com/wp-content/uploads/2026/09/ai-lead-automation-cover.png" width="70%" alt="AI-Assisted Lead Qualification & Routing System"/>
+  <img src="./cover.svg" width="100%" alt="AI Lead Qualification and Routing: Forms to SharePoint to Power Automate to Claude API to Teams"/>
 </p>
 
 ---
